@@ -31,3 +31,51 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.headerRow {
+    display: flex;
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.headerRow div {
+    flex: 0.5;
+    border: 1px solid;
+    padding: 1%;
+    font-weight: bold;
+    margin: 0 0 2px 0;
+}
+
+div.row {
+    display: flex;
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.row div {
+    flex: 0.25;
+    border: 1px solid;
+    padding: 1%;
+}
+
+div.return {
+    margin: 0 0 10px 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 80%;
+    display: flex;
+}
+
+div.return button {
+    flex: 1;
+    background-color: rgb(100,150,200);
+    font-weight: bold;
+    font-color: rgb(0, 100, 0);
+}
